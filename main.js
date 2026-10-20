@@ -53,9 +53,11 @@ function renderProjects(projects = []) {
     const card = el(
       "article",
       { class: "project" },
-      p.image
-        ? el("img", { class: "project-image", src: p.image, alt: p.title, loading: "lazy" })
-        : el("div", { class: "project-image placeholder", "aria-hidden": "true" }, String(i + 1).padStart(2, "0")),
+      !p.image
+        ? el("div", { class: "project-image placeholder", "aria-hidden": "true" }, String(i + 1).padStart(2, "0"))
+        : p.imageIsLogo
+          ? el("div", { class: "project-image logo" }, el("img", { src: p.image, alt: p.client || p.title, loading: "lazy" }))
+          : el("img", { class: "project-image", src: p.image, alt: p.title, loading: "lazy" }),
       el(
         "div",
         { class: "project-body" },

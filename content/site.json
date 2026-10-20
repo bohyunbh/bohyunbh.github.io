@@ -26,7 +26,8 @@
       "title": "Bringing a Korean activewear brand to the U.S.",
       "client": "Stretch Your Story · Echo Marketing",
       "year": "2026",
-      "image": "",
+      "image": "images/logo-stretch-your-story.png",
+      "imageIsLogo": true,
       "summary": "Built the U.S. go-to-market strategy for an activewear brand, positioning performancewear as everyday lifestyle wear. I benchmarked competitors, translated fabric features into benefit-led messaging, and wrote creative direction for creator content and paid ads.",
       "results": [
         { "value": "Adopted", "label": "My July promotion strategy ran as the brand's July campaign" },
@@ -39,7 +40,8 @@
       "title": "Scaling a creator program to 400 creators a month",
       "client": "Echo Marketing",
       "year": "2026",
-      "image": "",
+      "image": "images/logo-echo-marketing.png",
+      "imageIsLogo": true,
       "summary": "Ran the full creator funnel, from gifting to affiliate and paid usage. I segmented creators by category and audience fit to find the most responsive groups, tracked drop-off by product, and sent weekly recommendations to leadership.",
       "results": [
         { "value": "300–400", "label": "Creators reached per month" },
@@ -52,7 +54,8 @@
       "title": "Growing a startup accelerator's LinkedIn",
       "client": "KIC Silicon Valley",
       "year": "2025",
-      "image": "",
+      "image": "images/logo-kic-silicon-valley.png",
+      "imageIsLogo": true,
       "summary": "Planned and published event promotion and program content for a Korean government startup accelerator, and ran onboarding communications for its member companies.",
       "results": [
         { "value": "200+", "label": "Member companies engaged" },

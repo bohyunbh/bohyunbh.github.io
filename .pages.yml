@@ -38,6 +38,7 @@ content:
           - { name: client, label: Client / company, type: string }
           - { name: year, label: Year, type: string }
           - { name: image, label: Cover image, type: image, description: Optional. A wide (landscape) image looks best. }
+          - { name: imageIsLogo, label: This is a logo, type: boolean, description: Tick for a company logo so it's shown small and centered. Untick for photos and screenshots. }
           - { name: summary, label: What you did, type: text }
           - name: results
             label: Results (big numbers)
