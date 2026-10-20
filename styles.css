@@ -90,10 +90,12 @@ section { padding: 72px 0; scroll-margin-top: 64px; }
 }
 /* Logos sit centered on a light tile in both themes, so dark logos stay visible */
 .project-image.logo {
-  display: grid; place-items: center; padding: 12% 16%;
+  display: flex; align-items: center; justify-content: center; padding: 8% 16%;
   background: #f6f2ec; border-bottom: 1px solid var(--line);
 }
 .project-image.logo img { max-width: min(100%, 260px); max-height: 100%; object-fit: contain; }
+/* Keep the left edge of wide photos (e.g. a headline on the left) when cropping */
+img.project-image { object-position: left center; }
 .project-body { padding: 24px 26px 28px; display: flex; flex-direction: column; gap: 12px; }
 .project-body p { margin: 0; }
 .project-meta { color: var(--muted); font-size: 14px; font-weight: 500; }

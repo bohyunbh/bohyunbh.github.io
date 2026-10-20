@@ -26,8 +26,8 @@
       "title": "Bringing a Korean activewear brand to the U.S.",
       "client": "Stretch Your Story · Echo Marketing",
       "year": "2026",
-      "image": "images/logo-stretch-your-story.png",
-      "imageIsLogo": true,
+      "image": "images/sys-campaign.jpg",
+      "imageIsLogo": false,
       "summary": "Built the U.S. go-to-market strategy for an activewear brand, positioning performancewear as everyday lifestyle wear. I benchmarked competitors, translated fabric features into benefit-led messaging, and wrote creative direction for creator content and paid ads.",
       "results": [
         { "value": "Adopted", "label": "My July promotion strategy ran as the brand's July campaign" },
@@ -68,7 +68,8 @@
       "title": "Filling the room for campus cultural events",
       "client": "Korean International Student Association",
       "year": "2023–now",
-      "image": "",
+      "image": "images/logo-kisa-umich.png",
+      "imageIsLogo": true,
       "summary": "On the PR team, I plan targeted social media campaigns for cultural, social, and networking events for the Korean community at Michigan.",
       "results": [
         { "value": "+40%", "label": "Event attendance" },
