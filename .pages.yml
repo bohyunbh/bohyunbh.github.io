@@ -1,0 +1,93 @@
+# Pages CMS configuration (https://pagescms.org)
+# This turns content/site.json into a friendly editing form.
+
+media:
+  input: images
+  output: images
+
+content:
+  - name: site
+    label: My Website
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: profile
+        label: Intro & contact
+        type: object
+        fields:
+          - { name: name, label: Your name, type: string }
+          - { name: headline, label: Headline (the big sentence at the top), type: text }
+          - { name: intro, label: Short intro, type: text }
+          - { name: status, label: Status badge (e.g. "Open to 2027 roles"), type: string, description: Leave blank to hide it }
+          - { name: location, label: Location, type: string }
+          - { name: photo, label: Your photo, type: image, description: A portrait works best }
+          - { name: resume, label: Résumé PDF, type: file }
+          - { name: email, label: Email, type: string }
+          - { name: linkedin, label: LinkedIn URL, type: string, description: "Full link, e.g. https://www.linkedin.com/in/your-name" }
+          - { name: instagram, label: Instagram URL, type: string, description: Leave blank to hide it }
+          - { name: accentColor, label: Accent color, type: string, description: "A hex color like #d9572b. Try coolors.co to pick one." }
+
+      - name: projects
+        label: Selected work
+        description: These are the cards at the top of the site. Drag to reorder.
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: client, label: Client / company, type: string }
+          - { name: year, label: Year, type: string }
+          - { name: image, label: Cover image, type: image, description: Optional. A wide (landscape) image looks best. }
+          - { name: summary, label: What you did, type: text }
+          - name: results
+            label: Results (big numbers)
+            type: object
+            list: true
+            fields:
+              - { name: value, label: Number or word (e.g. "+40%"), type: string }
+              - { name: label, label: What it means, type: string }
+          - { name: tags, label: Tags, type: string, list: true }
+          - { name: link, label: Link to the work, type: string, description: Optional. A post, ad, deck, or article. }
+
+      - name: about
+        label: About me
+        type: object
+        fields:
+          - { name: heading, label: Heading, type: string }
+          - { name: body, label: About text, type: text, description: Leave an empty line between paragraphs. }
+          - name: facts
+            label: Quick facts
+            type: object
+            list: true
+            fields:
+              - { name: label, label: Label, type: string }
+              - { name: value, label: Value, type: string }
+
+      - name: experience
+        label: Experience
+        type: object
+        list: true
+        fields:
+          - { name: role, label: Role, type: string }
+          - { name: company, label: Company, type: string }
+          - { name: location, label: Location, type: string }
+          - { name: dates, label: Dates, type: string }
+          - { name: description, label: Description, type: text }
+
+      - name: beyond
+        label: Beyond work
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: subtitle, label: Subtitle, type: string }
+          - { name: image, label: Image, type: image }
+          - { name: description, label: Description, type: text }
+          - { name: link, label: Link, type: string }
+
+      - name: contact
+        label: Contact section
+        type: object
+        fields:
+          - { name: heading, label: Heading, type: string }
+          - { name: body, label: Text, type: text }

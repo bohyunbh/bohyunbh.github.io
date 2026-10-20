@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bohyun Park</title>
+  <meta name="description" content="Marketing portfolio of Bohyun Park.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!--
+    Content lives in content/site.json and is edited through Pages CMS.
+    This file only holds the page layout; you shouldn't need to touch it.
+  -->
+  <header class="nav">
+    <a class="nav-name" href="#top" data-text="profile.name"></a>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <div class="hero-text">
+        <p class="eyebrow" data-text="profile.status"></p>
+        <h1 data-text="profile.headline"></h1>
+        <p class="lede" data-text="profile.intro"></p>
+        <div class="actions">
+          <a class="btn btn-primary" data-href-email="profile.email">Email me</a>
+          <a class="btn" data-href="profile.resume" target="_blank" rel="noopener">Résumé</a>
+          <a class="btn" data-href="profile.linkedin" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+      <figure class="hero-photo" data-show="profile.photo">
+        <img data-src="profile.photo" alt="">
+      </figure>
+    </section>
+
+    <section id="work" class="wrap">
+      <h2 class="section-title">Selected work</h2>
+      <div id="projects" class="projects"></div>
+    </section>
+
+    <section id="about" class="wrap about">
+      <h2 class="section-title" data-text="about.heading"></h2>
+      <div class="about-grid">
+        <div id="about-body" class="prose"></div>
+        <dl id="facts" class="facts"></dl>
+      </div>
+    </section>
+
+    <section id="experience" class="wrap">
+      <h2 class="section-title">Experience</h2>
+      <ol id="timeline" class="timeline"></ol>
+    </section>
+
+    <section id="beyond" class="wrap">
+      <h2 class="section-title">Beyond work</h2>
+      <div id="beyond-list" class="beyond"></div>
+    </section>
+
+    <section id="contact" class="wrap contact">
+      <h2 data-text="contact.heading"></h2>
+      <p data-text="contact.body"></p>
+      <a class="contact-email" data-href-email="profile.email" data-text="profile.email"></a>
+      <div class="socials">
+        <a data-href="profile.linkedin" target="_blank" rel="noopener">LinkedIn</a>
+        <a data-href="profile.instagram" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <span>© <span id="year"></span> <span data-text="profile.name"></span></span>
+    <span data-text="profile.location"></span>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

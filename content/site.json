@@ -1,0 +1,121 @@
+{
+  "profile": {
+    "name": "Bohyun Park",
+    "headline": "Marketer & storyteller turning product details into stories people act on.",
+    "intro": "I'm a Cognitive Science student at the University of Michigan with a UX minor. I've scaled creator programs, shaped go-to-market strategy for a lifestyle brand, and grown communities across Seoul, Silicon Valley, and Ann Arbor.",
+    "location": "Ann Arbor, MI · Seoul, Korea",
+    "status": "Open to marketing internships & new-grad roles for 2027",
+    "photo": "",
+    "resume": "",
+    "email": "bohyunbh@umich.edu",
+    "linkedin": "",
+    "instagram": "",
+    "accentColor": "#d9572b"
+  },
+  "about": {
+    "heading": "About me",
+    "body": "I study how people think, and I use it to market to them honestly. My background in cognitive science and user experience shapes how I approach marketing: start with the audience, find the one benefit that matters to them, and say it clearly.\n\nI'm a native speaker of both Korean and English, and I love work that sits between cultures, whether that's bringing a Korean brand to the U.S. or connecting international students on campus. Outside of work, I front a Korean-American band called Seoul Juice.",
+    "facts": [
+      { "label": "Studying", "value": "B.S. Cognitive Science, UX Minor, University of Michigan, 2027" },
+      { "label": "Languages", "value": "Korean & English (native), Spanish, Italian" },
+      { "label": "Tools", "value": "Adobe Photoshop & Illustrator, Excel, PowerPoint, Google Workspace, HTML/CSS" }
+    ]
+  },
+  "projects": [
+    {
+      "title": "Bringing a Korean activewear brand to the U.S.",
+      "client": "Stretch Your Story · Echo Marketing",
+      "year": "2026",
+      "image": "",
+      "summary": "Built the U.S. go-to-market strategy for an activewear brand, positioning performancewear as everyday lifestyle wear. I benchmarked competitors, translated fabric features into benefit-led messaging, and wrote creative direction for creator content and paid ads.",
+      "results": [
+        { "value": "Adopted", "label": "My July promotion strategy ran as the brand's July campaign" },
+        { "value": "Launched", "label": "Proposed ad concepts went live and drove purchases" }
+      ],
+      "tags": ["Go-to-market", "Positioning", "Paid social"],
+      "link": ""
+    },
+    {
+      "title": "Scaling a creator program to 400 creators a month",
+      "client": "Echo Marketing",
+      "year": "2026",
+      "image": "",
+      "summary": "Ran the full creator funnel, from gifting to affiliate and paid usage. I segmented creators by category and audience fit to find the most responsive groups, tracked drop-off by product, and sent weekly recommendations to leadership.",
+      "results": [
+        { "value": "300–400", "label": "Creators reached per month" },
+        { "value": "200%+", "label": "Higher acceptance rate than agency-run campaigns" }
+      ],
+      "tags": ["Influencer marketing", "Funnel analysis", "Segmentation"],
+      "link": ""
+    },
+    {
+      "title": "Growing a startup accelerator's LinkedIn",
+      "client": "KIC Silicon Valley",
+      "year": "2025",
+      "image": "",
+      "summary": "Planned and published event promotion and program content for a Korean government startup accelerator, and ran onboarding communications for its member companies.",
+      "results": [
+        { "value": "200+", "label": "Member companies engaged" },
+        { "value": "↑", "label": "Follower growth and post engagement" }
+      ],
+      "tags": ["B2B social", "Content strategy", "Community"],
+      "link": ""
+    },
+    {
+      "title": "Filling the room for campus cultural events",
+      "client": "Korean International Student Association",
+      "year": "2023–now",
+      "image": "",
+      "summary": "On the PR team, I plan targeted social media campaigns for cultural, social, and networking events for the Korean community at Michigan.",
+      "results": [
+        { "value": "+40%", "label": "Event attendance" },
+        { "value": "10+", "label": "Events organized" }
+      ],
+      "tags": ["Social media", "Event marketing"],
+      "link": ""
+    }
+  ],
+  "experience": [
+    {
+      "role": "Marketing Intern",
+      "company": "Echo Marketing",
+      "location": "Seoul, Korea",
+      "dates": "Jun – Aug 2026",
+      "description": "Go-to-market strategy, creator marketing, and paid ad creative direction for the activewear brand Stretch Your Story."
+    },
+    {
+      "role": "Intern",
+      "company": "KIC Silicon Valley",
+      "location": "San Jose, CA",
+      "dates": "Jun – Aug 2025",
+      "description": "Ran LinkedIn and member communications for a Korean government startup accelerator. Researched AI data centers, SaaS, ICT growth, and U.S.–Korea tariffs for government stakeholders."
+    },
+    {
+      "role": "Intern",
+      "company": "Extreme Tech Challenge",
+      "location": "Palo Alto, CA",
+      "dates": "Jun – Aug 2025",
+      "description": "Helped evaluate startups for the UN World Food Forum Startup Innovation Awards 2025 across agrifood, climate resilience, and digital transformation."
+    },
+    {
+      "role": "Public Relations Board Member",
+      "company": "Korean International Student Association",
+      "location": "Ann Arbor, MI",
+      "dates": "Aug 2023 – Present",
+      "description": "Social campaigns and event planning that connect 100+ members with cultural and professional opportunities."
+    }
+  ],
+  "beyond": [
+    {
+      "title": "Seoul Juice",
+      "subtitle": "Lead vocalist · Korean-American band",
+      "image": "",
+      "description": "I lead a five-piece band in Ann Arbor. We've played 30+ live shows, including sold-out events, and I handle musical direction and logistics.",
+      "link": ""
+    }
+  ],
+  "contact": {
+    "heading": "Let's work together",
+    "body": "I'm always happy to talk about marketing, brands crossing borders, or a show you should come to. The fastest way to reach me is email."
+  }
+}
