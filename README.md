@@ -13,16 +13,14 @@ images/             uploaded photos / PDFs
 .pages.yml          defines the editing form in Pages CMS
 ```
 
-## One-time setup (Andrew)
+## Hosting
 
-1. Create a GitHub repo (e.g. `bohyun-portfolio`) and push this folder.
-2. Hosting: in the repo go to **Settings → Pages → Deploy from branch → `main` / root**.
-   The site will be live at `https://<username>.github.io/bohyun-portfolio/` within a minute.
-   (Netlify or Vercel also work. Point them at the repo with no build command.)
-3. Have Bohyun make a GitHub account, then add her as a collaborator
-   (**Settings → Collaborators**).
-4. She goes to **https://app.pagescms.org**, signs in with GitHub, and picks the repo.
-5. Optional: buy a domain such as `bohyunpark.com` and set it in **Settings → Pages → Custom domain**.
+Live at **https://bohyunbh.github.io**. The repo is `bohyunbh/bohyunbh.github.io`,
+and GitHub serves a repo with that exact name at the top level. It's published by
+GitHub Pages from `main` / root (**Settings → Pages**), and every push redeploys it.
+
+- To let someone else help edit: **Settings → Collaborators → Add people**.
+- Optional: buy a domain such as `bohyunpark.com` and set it in **Settings → Pages → Custom domain**.
 
 ## Editing guide (Bohyun)
 
