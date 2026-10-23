@@ -55,7 +55,8 @@ function renderProjects(projects = []) {
       { class: "project" },
       !p.image
         ? el("div", { class: "project-image placeholder", "aria-hidden": "true" }, String(i + 1).padStart(2, "0"))
-        : p.imageIsLogo
+        // Falls back to the file name (images/logo-*.png) if the checkbox is missing
+        : (p.imageIsLogo ?? /(^|\/)logo[-_]/i.test(p.image))
           ? el("div", { class: "project-image logo" }, el("img", { src: p.image, alt: p.client || p.title, loading: "lazy" }))
           : el("img", { class: "project-image", src: p.image, alt: p.title, loading: "lazy" }),
       el(

@@ -2,13 +2,14 @@
   "profile": {
     "name": "Bohyun Park",
     "headline": "Marketer & storyteller turning product details into stories people act on.",
-    "intro": "I'm a Cognitive Science student at the University of Michigan with a UX minor. I've scaled creator programs, shaped go-to-market strategy for a lifestyle brand, and grown communities across Seoul, Silicon Valley, and Ann Arbor.",
+    "intro": "I'm a Cognitive Science student at the University of Michigan with a UX minor, and an incoming Influencer Marketing Coordinator at Kurated. I've scaled creator programs, shaped go-to-market strategy for a lifestyle brand, and grown communities across Seoul, Silicon Valley, and Ann Arbor.",
     "status": "Open to marketing internships & new-grad roles for 2027",
     "location": "New York City, NY · Seoul, Korea",
     "photo": "images/박보현증명 (1).jpg",
     "resume": "images/Bohyun Park_Resume.pdf",
     "email": "bohyunbh@umich.edu",
-    "accentColor": "#d9572b"
+    "accentColor": "#d9572b",
+    "linkedin": "https://www.linkedin.com/in/bohyun-park-830013290/"
   },
   "projects": [
     {
@@ -16,15 +17,15 @@
       "client": "Stretch Your Story · Echo Marketing",
       "year": "2026",
       "image": "images/sys-campaign.jpg",
-      "summary": "Built the U.S. go-to-market strategy for an activewear brand, positioning performancewear as everyday lifestyle wear. I benchmarked competitors, translated fabric features into benefit-led messaging, and wrote creative direction for creator content and paid ads.",
+      "summary": "Built the U.S. go-to-market strategy for an activewear brand, positioning performancewear as everyday lifestyle wear. I benchmarked competitors, built 3 target personas, and turned fabric features into benefit-led messaging, creator briefs and paid social ad creative.",
       "results": [
         {
           "value": "Adopted",
-          "label": "My July promotion strategy ran as the brand's July campaign"
+          "label": "My July promotion plan ran as the brand's July campaign"
         },
         {
-          "value": "Launched",
-          "label": "Proposed ad concepts went live and drove purchases"
+          "value": "3",
+          "label": "Target personas built for the U.S. launch"
         }
       ],
       "tags": [
@@ -38,15 +39,23 @@
       "client": "Echo Marketing",
       "year": "2026",
       "image": "images/logo-echo-marketing.png",
-      "summary": "Ran the full creator funnel, from gifting to affiliate and paid usage. I segmented creators by category and audience fit to find the most responsive groups, tracked drop-off by product, and sent weekly recommendations to leadership.",
+      "summary": "Ran influencer outreach plus gifting, affiliate and paid usage programs. I segmented creators by category and audience fit, analyzed funnel drop-off by product and segment, and used it to set leadership's monthly product priorities.",
       "results": [
         {
           "value": "300–400",
           "label": "Creators reached per month"
         },
         {
-          "value": "200%+",
-          "label": "Higher acceptance rate than agency-run campaigns"
+          "value": "32%",
+          "label": "Pitch acceptance (44 of 136), 200%+ above agency campaigns"
+        },
+        {
+          "value": "40",
+          "label": "Creator gifts shipped in one week"
+        },
+        {
+          "value": "18",
+          "label": "Affiliates supported"
         }
       ],
       "tags": [
@@ -60,15 +69,15 @@
       "client": "KIC Silicon Valley",
       "year": "2025",
       "image": "images/logo-kic-silicon-valley.png",
-      "summary": "Planned and published event promotion and program content for a Korean government startup accelerator, and ran onboarding communications for its member companies.",
+      "summary": "Planned and published event and program content for a Korean government-backed startup accelerator, and drove member growth through onboarding, targeted outreach and KPI tracking.",
       "results": [
         {
           "value": "200+",
           "label": "Member companies engaged"
         },
         {
-          "value": "↑",
-          "label": "Follower growth and post engagement"
+          "value": "4",
+          "label": "Market areas researched for government reports"
         }
       ],
       "tags": [
@@ -113,17 +122,24 @@
       },
       {
         "label": "Tools",
-        "value": "Adobe Photoshop & Illustrator, Excel, PowerPoint, Google Workspace, HTML/CSS"
+        "value": "TikTok, YouTube & Instagram, Excel, PowerPoint, Google Workspace, Adobe Photoshop & Illustrator, HTML/CSS"
       }
     ]
   },
   "experience": [
     {
+      "role": "Influencer Marketing Coordinator (Part-Time)",
+      "company": "Kurated",
+      "location": "Remote",
+      "dates": "Incoming",
+      "description": "End-to-end influencer campaigns for global beauty and CPG brands, from outreach to KPI reporting. Coordinating creator, agency and brand partners, and tracking Korean influencer trends to source creators for TikTok and YouTube campaigns."
+    },
+    {
       "role": "Marketing Intern",
       "company": "Echo Marketing",
       "location": "Seoul, Korea",
       "dates": "Jun – Aug 2026",
-      "description": "Go-to-market strategy, creator marketing, and paid ad creative direction for the activewear brand Stretch Your Story."
+      "description": "Go-to-market strategy, influencer outreach, and gifting, affiliate and paid social programs for the activewear brand Stretch Your Story."
     },
     {
       "role": "Intern",
